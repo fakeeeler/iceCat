@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "FilterBar",
+  "usingComponents": {
+    "wux-filterbar": "../../dist/filterbar/index",
+    "wux-media": "../../dist/media/index",
+    "wux-card": "../../dist/card/index",
+    "wux-wing-blank": "../../dist/wing-blank/index"
+  }
+  
+}

@@ -1,0 +1,44 @@
+<view class="content">
+  <!-- <view class="showtime">
+    <text>{{logs}}</text>
+  </view> -->
+  <view class='time1'>
+    <view style='height:200px'>
+      <view class='timehead'>选择日期</view>
+      <view class="divLine"></view>
+      <view class='choose' style='height:65px'>
+        <view class='selectDate'>
+          <view class='topLine'><text style='font-weight:bold'>进店 · 周一</text></view>
+          <view class='bottomLine'>9 月 10 日</view>
+        </view>
+        <view class='verticalLine'></view>
+        <view class='overAll'>
+          <view class='firstLine'><text>1 2 : 0 0</text></view>
+          <view class='secondLine'><text>~</text></view>
+          <view class='thirdLine'><text>1 8 : 0 0</text></view>
+        </view>
+      </view>
+      <view class="divLine"></view>
+      <button class='find'>查询</button>
+    </view>
+  </view>
+  <view class='cards'>
+    <view class='timehead'>选择房间</view>
+    <view class="divLine"></view>
+    <view class="card">
+      <view bindtap="onItemClick">
+        <image class="image" mode="aspectFill" src="../images/cards/roo1.jpg"></image>
+        <view class='introduction' style="font-size:12px;margin-top:5px;font-weight:bold;">电竞民宿 · 横塘</view>
+        <view class="title" style="line-height:1.3em;">【前小元上】姑苏城内带家庭影院独栋苏宅 山塘街平江路</view>
+      </view>
+    </view>
+    <view class="divLine"></view>
+    <view class="card">
+      <view bindtap="onItemClick">
+        <image class="image" mode="aspectFill" src="../images/cards/roo1.jpg"></image>
+        <view class='introduction' style="font-size:12px;margin-top:5px;font-weight:bold;">电竞民宿 · 横塘</view>
+        <view class="title" style="line-height:1.3em;">【前小元上】姑苏城内带家庭影院独栋苏宅 山塘街平江路</view>
+      </view>
+    </view>
+  </view>
+</view>

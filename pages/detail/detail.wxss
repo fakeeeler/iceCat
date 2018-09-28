@@ -1,0 +1,13 @@
+/* pages/detail/detail.wxss */
+.head_pic{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+.detail_buttom{
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}

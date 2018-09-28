@@ -1,0 +1,26 @@
+<view class="content">
+  <block wx:for="{{coupon}}">
+    <view class="outwrap">
+      <view class="up">
+        <view class="left1">
+          <text class="coupon-name">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="right1">
+        <text class="coupon-detail">{{item.detail}}></text>
+      </view>
+      <view class='right1_detail'>
+        <text class='coupon-detail2'>{{item.detail2}}</text>
+      </view>
+      <view style="margin-top:10px;border:1px dashed #C0C0C0;"></view>
+      <view class='down'>
+        <view class='left2'>
+           <text class="coupon-during">{{item.during}}</text>
+        </view>
+        <view class='right2'>
+          <button class='use' bindtap='ToUse' size='mini'>去使用</button>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

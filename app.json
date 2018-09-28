@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/coupons/coupons",
+    "pages/mine/mine",
+    "pages/detail/detail",
+    "pages/Modify/modify",
+    "pages/IDCard/Idcard",
+    "pages/home/home",  
+    
+    "pages/findplay/findplay",
+    "pages/order/order"
+    
+    
+    
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "雪猫屋",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#1E90FF",
+    "backgroundColor": "rgb(239, 239, 242)",
+    "borderStyle": "#000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "pages/images/bottomNav/order.png",
+        "selectedIconPath": "pages/images/bottomNav/order_select.png",
+        "text": "预定"
+      },
+      {
+        "pagePath": "pages/findplay/findplay",
+        "iconPath": "pages/images/bottomNav/findplay.png",
+        "selectedIconPath": "pages/images/bottomNav/findplay_select.png",
+        "text": "约玩"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "pages/images/bottomNav/mine.png",
+        "selectedIconPath": "pages/images/bottomNav/mine_select.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

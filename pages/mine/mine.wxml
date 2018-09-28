@@ -1,0 +1,42 @@
+<view class='content'>
+  <view class='user'>
+    <view class='user_pic'>
+
+    </view>
+    <view class='user_name_vip'>
+      <view class='user_name'>
+        微信用户
+      </view>
+      <view class='vip_sign'>
+        <text>普通会员</text>
+      </view>
+    </view>
+  </view>
+  <view class='wallet'>
+    <view class='wallet_head'>
+      <view class='wallet_name'>
+        我的余额
+      </view>
+      <view class='wallet_detail'>明细 <icon class="iconfont icon-youjiantou"></icon>
+      </view>
+    </view>
+    <view class='left_money'>
+      <image style='height:30px;width:30px;margin-top:15px;margin-left:10%;float:left;' src='/pages/images/money.png'></image>
+      <text class='money'>XXXX.XX元</text>
+      <text class='discounts'>优惠券</text>
+      <image style='height:28px;width:32px;margin-top:17px;margin-right:2%;float:right;' src='/pages/images/youhuiquan.png'></image>
+    </view>
+  </view>
+	<view class='vip'>
+			<text class='vip_level'>XX会员</text>
+			<view class='verticalLine'/>
+			<view class='vip_right'>
+				<view class='vip_right_head'>
+					<view class='vip_right_name'>当前享受优惠：</view>
+				</view>
+				<view class='vip_right_intro'>
+					<text class='intro'>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</text>
+				</view>
+			</view>
+		</view>
+</view>

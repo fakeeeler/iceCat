@@ -1,0 +1,162 @@
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(239, 239, 242);
+}
+
+.user{
+  width: 94%;
+  margin:2%;
+  height: 125px;
+  background: #1E90FF;
+  box-shadow: 0px 3px #EBEDF1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.user_pic{
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 25px;
+  float: left;
+}
+.user_name_vip{
+  background-color:transparent;
+  width: 30%;
+  height: 60px;
+  margin-left: 2%;
+  margin-top: 28px;
+  float: left;
+  overflow: hidden;
+  
+  
+}
+.user_name{
+  color: white;
+  font-size: 24px;
+}
+
+.vip_sign{
+  text-align: center;
+  width: 80%;
+  height:20px;
+  color: #AD6D51;
+  background-color:#FBB084;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-top: 5px;
+  float: left;
+  padding: 1px;
+}
+
+.wallet{
+  width: 94%;
+  margin:2%;
+  height: 90px;
+  background:white;
+  box-shadow: 0px 3px #EBEDF1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.wallet_head{
+  width: 100%;
+  overflow: hidden;
+}
+
+.wallet_name{
+  margin-left: 5%;
+  background-color: transparent;
+  width: 20%;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+
+}
+
+.wallet_detail{
+  background-color: transparent;
+  width: 20%;
+  height: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+}
+.left_money{
+  width: 100%;
+}
+.money{
+  margin-top: 17px;
+  float: left;
+  margin-left: 4%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.discounts{
+  margin-top: 20px;
+  margin-right: 15%;
+  font-size: 15px;
+  font-weight: bold;
+  float:right;
+}
+
+.vip{
+  width: 94%;
+  margin:2%;
+  height: 90px;
+  background:white;
+  box-shadow: 0px 3px #EBEDF1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.vip_level{
+	font-size: 24px;
+	font-weight: bold;
+  margin-top: 8%;
+  margin-left: 5%;
+  float: left;
+}
+.verticalLine{
+  float: left;
+  width: 6rpx;
+  height: 70%;
+  margin-top: 4%;
+  margin-left: 5%;
+  background: #E0E3DA;
+}
+.vip_right{
+  width: 60%;
+  margin-top:2.2%;
+	margin-left: 36%;
+  height: 75px;
+  background:white;
+}
+.vip_right_head{
+	width:100%;
+}
+.vip_right_name{
+  margin-left: 3%;
+  background-color: transparent;
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+.vip_right_intro{
+	width:100%;
+}
+.intro{
+	float: left;
+	word-break: break-all;
+	margin-left: 10%;
+	margin-top: 16px;
+}

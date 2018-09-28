@@ -1,0 +1,5 @@
+<view class='content'>
+  <view class='head_pic'></view>
+  <view style='height:1000px; '></view>
+  <view class='detail_buttom'></view>
+</view>

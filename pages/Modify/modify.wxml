@@ -1,0 +1,25 @@
+<view class="content">
+<view class='changeInfo'>
+  <view wx:if="{{step == 1}}" id='firstStep_Pad'>
+    <view class='changeInfoName'>
+      <input placeholder='请输入原手机号' bindinput='getPhoneValue1' value='{{phone1}}' />
+    </view>
+    <view class='changeInfoName'>
+      <input placeholder='请输验证码' bindinput='getCodeValue1' value='{{code1}}' style='width:70%;' />
+      <button class='codeBtn' bindtap='getVerificationCode' disabled='{{disabled}}'>{{codename}}</button>
+    </view>
+    <button class='changeBtn' bindtap='next'>下一步</button>
+  </view>
+
+  <view wx:if="{{step == 2}}" id='SecondStep_Pad'>
+    <view class='changeInfoName'>
+      <input placeholder='请输入新手机号' bindinput='getPhoneValue2' value='{{phone2}}' />
+    </view>
+    <view class='changeInfoName'>
+      <input placeholder='请输验证码' bindinput='getCodeValue2' value='{{code2}}' style='width:70%;' />
+      <button class='codeBtn' bindtap='getVerificationCode' disabled='{{disabled}}'>{{codename}}</button>
+    </view>
+    <button class='changeBtn' bindtap='save'>完成</button>
+  </view>
+</view>
+</view>

@@ -1,0 +1,49 @@
+.outwrap{
+  width: 94%;
+  margin:3%;
+  height: 125px;
+  background: white;
+  box-shadow: 0px 3px #EBEDF1;
+  
+  overflow: hidden;
+}
+
+.left1{
+  margin-top: 30px;
+  margin-left: 30px; 
+}
+
+.coupon-name{
+  font-size: 180%;
+  color: red;
+}
+
+.right1{
+  margin-top: -34px; 
+  margin-left: 120px;
+}
+
+.coupon-detail{
+  color: black;
+}
+
+.right1_detail{
+  margin-left: 130px;
+}
+
+.left2{
+  margin-left: 8px; 
+  margin-top: 10px;
+  float: left;
+}
+
+.coupon-during{
+   color: gainsboro
+}
+
+.use{
+  margin-top: 8px;
+  margin-left: 30px;
+  background-color: rgb(187, 234, 248);
+  color: #FFF;
+}

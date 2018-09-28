@@ -1,0 +1,22 @@
+@import "./utils/icon.wxss";
+
+
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    height: 100%;
+}
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(239, 239, 242);
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+}
+.icon-youjiantou:before{content: '\e735';}
+

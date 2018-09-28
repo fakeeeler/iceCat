@@ -1,0 +1,14 @@
+<view class='content'>
+<view class='headInfo'><text>请填写当前账户本人真实信息，提交后无法修改</text></view>
+  <view class='changeInfoName'>
+    <text>姓名</text>
+     <input class='inputInfo' placeholder='请输入姓名' bindinput='getNameValue' value='{{name}}'/> 
+  </view>
+  
+  <view class='changeInfoName'>
+   <text>身份证</text>
+     <input class='inputInfo' placeholder='请输入身份证号' bindinput='getIdValue' value='{{Id}}'/> 
+  </view>
+
+  <button class='confirm' bindtap='save'>确认</button>
+</view>
